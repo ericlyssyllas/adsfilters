@@ -2,7 +2,7 @@
 ! Version: 202408222107
 ! Title: Meus filtros
 ! Description: Block. Don't break.
-! Last modified: 2024-08-22T21:06:45+0000
+! Last modified: 2024-08-22T20:52:45+0000
 ! Expires: 1 hours
 ! License: https://github.com/ericlyssyllas/adsfilters/blob/main/LICENSE
 ! Maintainer: Ericlys Syllas
