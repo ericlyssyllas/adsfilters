@@ -1,8 +1,8 @@
 [Adblock Plus]
-! Version: 202408222107
+! Version: 202408222108
 ! Title: Meus filtros
 ! Description: Block. Don't break.
-! Last modified: 2024-08-22T20:52:45+0000
+! Last modified: 2024-08-22T20:58:45+0000
 ! Expires: 1 hours
 ! License: https://github.com/ericlyssyllas/adsfilters/blob/main/LICENSE
 ! Maintainer: Ericlys Syllas
@@ -806,12 +806,12 @@ caroloportunidades.com.br#%#//scriptlet('prevent-setTimeout', 'hasAdblock')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184038
 /asb1.js$domain=anitube.vip|hinatasoul.com
 @@||ads.anitube.vip^$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com
-@@||popads.net/js/adblock.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|animeyabu.org
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|animeyabu.org
+@@||popads.net/js/adblock.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|animeyabu.org|isekaibrasil.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=anitube.vip|hinatasoul.com|dattebayo-br.com|animeyabu.org|isekaibrasil.com
 anitube.vip,hinatasoul.com#%#//scriptlet('set-constant', 'detectedAdblock', 'noopFunc')
 anitube.vip,hinatasoul.com#%#//scriptlet('prevent-fetch', '/outbrain\.com|adligature\.com|quantserve\.com|srvtrck\.com/')
 ! Fix for DNS filtering
-dattebayo-br.com,anitube.vip,hinatasoul.com#%#(()=>{let e="";const t={apply:(t,o,n)=>(n[1]&&n[1].includes("//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")&&(o.prevent=!0,e=n[1]),Reflect.apply(t,o,n))};window.XMLHttpRequest.prototype.open=new Proxy(window.XMLHttpRequest.prototype.open,t);const o={apply:async(t,o,n)=>{if(o.prevent){const t=()=>Promise.resolve(o).then((e=>{try{e.responseText||Object.defineProperty(e,"responseText",{value:"google_plmetrics"}),"function"==typeof e.onload&&e.onload(),"function"==typeof e.onreadystatechange&&(Object.defineProperty(e,"status",{value:200}),Object.defineProperty(e,"readyState",{value:4}),e.onreadystatechange())}catch(e){console.trace(e)}}));try{const o=await fetch(e);if((await o.text()).length<2e3)return t()}catch(e){return t()}}return Reflect.apply(t,o,n)}};window.XMLHttpRequest.prototype.send=new Proxy(window.XMLHttpRequest.prototype.send,o)})();
+isekaibrasil.com,dattebayo-br.com,anitube.vip,hinatasoul.com#%#(()=>{let e="";const t={apply:(t,o,n)=>(n[1]&&n[1].includes("//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")&&(o.prevent=!0,e=n[1]),Reflect.apply(t,o,n))};window.XMLHttpRequest.prototype.open=new Proxy(window.XMLHttpRequest.prototype.open,t);const o={apply:async(t,o,n)=>{if(o.prevent){const t=()=>Promise.resolve(o).then((e=>{try{e.responseText||Object.defineProperty(e,"responseText",{value:"google_plmetrics"}),"function"==typeof e.onload&&e.onload(),"function"==typeof e.onreadystatechange&&(Object.defineProperty(e,"status",{value:200}),Object.defineProperty(e,"readyState",{value:4}),e.onreadystatechange())}catch(e){console.trace(e)}}));try{const o=await fetch(e);if((await o.text()).length<2e3)return t()}catch(e){return t()}}return Reflect.apply(t,o,n)}};window.XMLHttpRequest.prototype.send=new Proxy(window.XMLHttpRequest.prototype.send,o)})();
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||cdn.adligature.com/work.ink/prod/rules.css$domain=anitube.vip|hinatasoul.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157756
