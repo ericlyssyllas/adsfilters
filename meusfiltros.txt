@@ -1,8 +1,8 @@
 [Adblock Plus]
-! Version: 202408222108
+! Version: 1
 ! Title: Meus filtros
 ! Description: Block. Don't break.
-! Last modified: 2024-08-22T20:58:45+0000
+! Last modified: 2024-08-23T00:00:00+0000
 ! Expires: 1 hours
 ! License: https://github.com/ericlyssyllas/adsfilters/blob/main/LICENSE
 ! Maintainer: Ericlys Syllas
@@ -20,6 +20,7 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186815
+@@||connectionbrazilusa.com$xmlhttprequest
 @@||popads.net/js/adblock.js$xmlhttprequest,domain=isekaibrasil.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=isekaibrasil.com
 @@||ads.anitube.vip^|$xmlhttprequest
