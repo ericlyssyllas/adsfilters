@@ -2,9 +2,6 @@
 ! Version: 0.0.0.0
 ! Title: Meus filtros
 ! Description: Block. Don't break.
-! Last modified: 2024-08-23T00:00:01+0000
-! Expires: 1 minute
-! License: https://github.com/ericlyssyllas/adsfilters/blob/main/LICENSE
 ! Maintainer: Ericlys Syllas
 ! Homepage: https://jyz.com.br
 
