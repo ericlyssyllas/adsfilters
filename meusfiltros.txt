@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Version: 1
+! Version: 202408230000
 ! Title: Meus filtros
 ! Description: Block. Don't break.
 ! Last modified: 2024-08-23T00:00:00+0000
