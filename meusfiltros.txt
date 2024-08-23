@@ -27,6 +27,7 @@
 @@||ads.anitube.vip/*.php|$xmlhttprequest
 @@||ads.anitube.vip/?token=$xmlhttprequest
 
+!+ NOT_PLATFORM(ext_ff)
 divicast.com,projectfreetv2.com,faselhd.*$$script[wildcard="*function*break;case*"][min-length="25000"][max-length="100000"]
 www.dattebayo-br.com,isekaibrasil.com,anitube.vip$$script[wildcard="*function*break;case*"][min-length="25000"][max-length="100000"]
 
