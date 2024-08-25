@@ -1,5 +1,5 @@
 [Heaven AdBlock]
-! Version: 0.0.0.2
+! Version: 0.0.0.3
 ! Title: Heaven AdBlock
 ! Description: Bloqueadores de anúncios desenvolvidos pela equipe Heaven AdBlock.
 ! Maintainer: Ericlys Syllas
@@ -21,6 +21,7 @@
 
 ||popads.net/js/adblock.js
 @@/js/adblock.js$domain=popads.net
+||cdn.jsdelivr.net/npm/disable-devtool
 
 @@||infinityfree.com$xmlhttprequest
 @@||connectionbrazilusa.com$xmlhttprequest
