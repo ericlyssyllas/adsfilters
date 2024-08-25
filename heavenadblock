@@ -1,0 +1,22 @@
+[Heaven AdBlock]
+! Version: 1.0.0.0
+! Title: Heaven AdBlock
+! Description: Bloqueadores de anúncios desenvolvidos pela equipe Heaven AdBlock.
+! Maintainer: Ericlys Syllas
+! Homepage: https://heavenadblock.jyz.com.br
+
+
+! Permissões
+
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest
+@@||connectionbrazilusa.com$xmlhttprequest
+@@||popads.net/js/adblock.js$xmlhttprequest
+
+! Bloqueio de elementos
+
+toonily.com##html > iframe:nth-child(4)
+connectionbrazilusa.com##div.detectadb:first-child
+
+! Bloqueio de domínios
+
+||example.org/adblock/detect.js
