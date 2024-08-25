@@ -1,5 +1,5 @@
 [Heaven AdBlock]
-! Version: 0.0.0.10
+! Version: 0.0.0.1
 ! Title: Heaven AdBlock
 ! Description: Bloqueadores de anúncios desenvolvidos pela equipe Heaven AdBlock.
 ! Maintainer: Ericlys Syllas
@@ -14,19 +14,18 @@
 ! Good: @@/adblocker/detect.js$domain=example.org
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
-!
-!
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/186815
-
-
+! Permissões
 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest
 @@||connectionbrazilusa.com$xmlhttprequest
 @@||popads.net/js/adblock.js$xmlhttprequest
-@@||ads.anitube.vip^|$xmlhttprequest
-@@||ads.anitube.vip/*.php|$xmlhttprequest
-@@||ads.anitube.vip/?token=$xmlhttprequest
 
+! Bloqueio de elementos
+
+toonily.com##html > iframe:nth-child(4)
 connectionbrazilusa.com##div.detectadb:first-child
-about:blank$domain=infinityfree.com
+
+! Bloqueio de domínios
+
+||example.org/adblock/detect.js
