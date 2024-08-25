@@ -1,5 +1,5 @@
 [Heaven AdBlock]
-! Version: 0.0.0.4
+! Version: 0.0.0.5
 ! Title: Heaven AdBlock
 ! Description: Bloqueadores de anúncios desenvolvidos pela equipe Heaven AdBlock.
 ! Maintainer: Ericlys Syllas
@@ -23,6 +23,7 @@
 @@/js/adblock.js$domain=popads.net
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 
+||animesonlinecc.us
 @@||infinityfree.com$xmlhttprequest
 @@||connectionbrazilusa.com$xmlhttprequest
 @@||popads.net/js/adblock.js$xmlhttprequest
@@ -31,7 +32,7 @@
 @@||ads.anitube.vip/?token=$xmlhttprequest
 
 !+ NOT_PLATFORM(ext_ff)
-www.dattebayo-br.com,isekaibrasil.com,anitube.vip,faselhd.*$$script[wildcard="*function*break;case*"][min-length="25000"][max-length="100000"]
+animesonlinecc.us,dattebayo-br.com,isekaibrasil.com,anitube.vip,faselhd.*$$script[wildcard="*function*break;case*"][min-length="25000"][max-length="100000"]
 
 connectionbrazilusa.com##div.detectadb:first-child
 zoyaporn.com##div.wrapper:first-child > div.content:nth-child(3) > div.bottom-bns-block:last-child
