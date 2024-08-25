@@ -21,7 +21,7 @@
 
 ||popads.net/js/adblock.js
 @@/js/adblock.js$domain=popads.net
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 
 ||animesonlinecc.us
 @@||infinityfree.com$xmlhttprequest
