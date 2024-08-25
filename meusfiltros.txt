@@ -28,3 +28,4 @@
 www.dattebayo-br.com,isekaibrasil.com,anitube.vip,faselhd.*$$script[wildcard="*function*break;case*"][min-length="25000"][max-length="100000"]
 
 connectionbrazilusa.com##div.detectadb:first-child
+zoyaporn.com##div.wrapper:first-child > div.content:nth-child(3) > div.bottom-bns-block:last-child
