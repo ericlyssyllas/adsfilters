@@ -9,9 +9,9 @@
 ! Permissões
 
 @@||popads.net^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest
-@@||connectionbrazilusa.com$xmlhttprequest
-@@||popads.net/js/adblock.js$xmlhttprequest
+!@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest
+!@@||connectionbrazilusa.com$xmlhttprequest
+!@@||popads.net/js/adblock.js$xmlhttprequest
 
 ! Bloqueio de elementos
 
