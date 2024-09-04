@@ -1,5 +1,5 @@
 [Heaven AdBlock]
-! Version: 1.0.0.1
+! Version: 1.0.0.2
 ! Title: Heaven AdBlock
 ! Description: Bloqueadores de anúncios desenvolvidos pela equipe Heaven AdBlock.
 ! Maintainer: Ericlys Syllas
@@ -15,6 +15,7 @@
 
 ! Bloqueio de elementos
 
+toonily.com##html > iframe:nth-child(5)
 toonily.com##html > iframe:nth-child(4)
 connectionbrazilusa.com##div.detectadb:first-child
 
