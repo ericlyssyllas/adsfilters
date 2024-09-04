@@ -15,6 +15,7 @@
 
 ! Bloqueio de elementos
 
+toonily.com##html > iframe:nth-child(1)
 toonily.com##html > iframe:nth-child(5)
 toonily.com##html > iframe:nth-child(4)
 connectionbrazilusa.com##div.detectadb:first-child
